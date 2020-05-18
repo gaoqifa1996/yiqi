@@ -1,0 +1,6 @@
+#!/bin/bash
+
+read -a array < ./ver
+VER=${array[0]}
+
+docker build -t send:$VER .

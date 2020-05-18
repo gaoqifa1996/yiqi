@@ -1,0 +1,15 @@
+#!/bin/bash
+
+CID=`docker ps | grep send | awk '{print $1}'`
+docker stop $CID
+docker container rm $(docker container ls -a -q -f status=exited)
+
+./b
+
+cd ./dk
+./build
+
+docker run -d send:1.12
+
+CID=`docker ps | grep send | awk '{print $1}'`
+docker exec -it $CID /bin/bash

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="gbk"?>
+	<env:Envelope xmlns:com="http://pdps.in.audi.vwg/legacy_schema/20.7.3-2018.01/common" xmlns:env="http://pdps.in.audi.vwg/legacy_schema/20.7.3/envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdps.in.audi.vwg/legacy_schema/20.7.3-2018.01/envelope envelope.xsd">
+		<Header>
+			<Sender>
+				<Location assembly_cycle="" assembly_line="MES Battery Assembly Line" assembly_subline="1" plant="C4" plant_segment="Battery"/>
+				<Device hostname="" manufacturer="" opmode="" type=""/>
+			</Sender>
+			<Telegraminfo datatype="" timestamp=""/>
+			<Communicationtype type="SEND_DATA"/>
+		</Header>
+		<Body>
+			<VehicleData>
+				<BodyIdent checkdigit="" id="" plant="" productionyear=""/>
+			</VehicleData>
+			<Data>
+				<ModuleData>
+					<Module code="KGG" serialnumber="1122335" status="AV"/>
+					<Module code="KGG" serialnumber="1122335" status="AV"/>
+					<Module code="KGG" serialnumber="1122335" status="AV"/>
+					<Module code="KGG" serialnumber="1122335" status="AV"/>
+					<Module code="KGG" serialnumber="1122335" status="AV"/>
+					<Module code="KGG" serialnumber="1122335" status="AV"/>
+					<Module code="KGG" serialnumber="1122335" status="AV"/>
+				</ModuleData>
+			</Data>
+		</Body>
+	</env:Envelope>

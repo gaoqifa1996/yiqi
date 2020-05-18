@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<env:Envelope xmlns:env="http://pdps.in.audi.vwg/legacy_schema/20.7.3/envelope">
+  <Header>
+    <Sender aa="a">
+      <Location assembly_cycle="uuuu" assembly_line="oooo" assembly_line_section="" assembly_subline="" plant="C4" plant_segment="BODY"/>
+      <Device name="" hostname="" ipaddress="10.228.202.97" macaddress="" manufacturer="" type="" operating_state="" model=""/>
+      <Application name="MES" minorversion="0" majorversion="1" manufacturer=""/>
+    </Sender>
+    <Telegraminfo minorversion="0" majorversion="1" dataguid="" timestamp="2020-02-07T10:45:45" datatype="MODULES"/>
+    <Communicationtype type="SEND"/>
+  </Header>
+  <Body>
+    <VehicleData>
+      <BodyIdent plant="C4" id="1128001" productionyear="2019" checkdigit="9"/>
+    </VehicleData>
+    <Data>
+      <Raw>
+        <Detail>
+          <Key>288</Key>
+          <Value>288 5FVL11999C=</Value>
+        </Detail>
+        <Detail>
+          <Key>PT</Key>
+          <Value>20200101120530</Value>
+        </Detail>
+        <Detail>
+          <Key>SQR</Key>
+          <Value>0001</Value>
+        </Detail>
+        <Detail>
+          <Key>GBT</Key>
+          <Value>08OFEA01LFV0AL110000999</Value>
+        </Detail>
+        <Detail>
+          <Key>1G2</Key>
+          <Value>1G2 5FV1234567C</Value>
+        </Detail>
+        <Detail>
+          <Key>PRN</Key>
+          <Value>#M2R</Value>
+        </Detail>
+        <Detail>
+          <Key>CID</Key>
+          <Value>C4201911280019</Value>
+        </Detail>
+      </Raw>
+    </Data>
+  </Body>
+</env:Envelope>

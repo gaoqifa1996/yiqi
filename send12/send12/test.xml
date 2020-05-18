@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="gbk"?>
+	<env:Envelope xmlns:com="http://pdps.in.audi.vwg/legacy_schema/20.7.3-2018.01/common" xmlns:env="http://pdps.in.audi.vwg/legacy_schema/20.7.3/envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdps.in.audi.vwg/legacy_schema/20.7.3-2018.01/envelope envelope.xsd">
+		<Header>
+			<Sender>
+				<Location assembly_cycle="501" assembly_line="MES Battery Assembly Line" assembly_subline="1" plant="C4" plant_segment="Battery"/>
+				<Device hostname="MESAF50A" manufacturer="" opmode="" type=""/>
+			</Sender>
+			<Telegraminfo datatype="" timestamp=""/>
+			<Communicationtype type="SEND_DATA"/>
+		</Header>
+		<Body>
+			<VehicleData>
+				<BodyIdent checkdigit="1" id="0401002" plant="C4" productionyear="2020"/>
+			</VehicleData>
+			<Data>
+				<ModuleData>
+					<Module code="KGG" serialnumber="#11G915599B    ##421303375#010320*0E0 CY50000082P*=03S CY5-00101.03.20A22F0082*010320#28.76#3.5952#3.5951#3.5949#3.5952#3.5953#3.5953#3.5944#3.5949#" status="AV"/>
+					<Module code="KGG" serialnumber="#11G915599B    ##421303375#010320*0E0 CY50000082P*=03S CY5-00101.03.20A22F0082*010320#28.76#3.5952#3.5951#3.5949#3.5952#3.5953#3.5953#3.5944#3.5959#" status="AV"/>
+				</ModuleData>
+			</Data>
+		</Body>
+	</env:Envelope>

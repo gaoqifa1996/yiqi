@@ -1,0 +1,3 @@
+	使用soqpmq：4.0作为基础镜像
+	新增xml2dirt库
+	为解决循环导致的MQRC_ALREADY_CONNECTED问题，重新封装建立连接MQ函数

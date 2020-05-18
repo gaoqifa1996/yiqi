@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cd dk
+
+./b
+
+cd ..
+
+git add --all .
+git ci -m "build"
+git push origin master

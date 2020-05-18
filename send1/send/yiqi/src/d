@@ -1,0 +1,8 @@
+cd ../front
+./stop && ./cleardb
+cd ../send
+./build
+cd ../front
+./up
+cd ../send
+./r
